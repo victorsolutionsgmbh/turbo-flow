@@ -1,6 +1,6 @@
-# Turbo Flow
+# ⚡Turbo Flow
 
-**Turbo Flow** is a Chrome extension that significantly simplifies and speeds up searching and managing Power Automate flows.
+**Turbo Flow** is a Chrome extension that significantly simplifies and speeds up searching Power Automate flows.
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## Overview
 
-Power Automate has no built-in way to quickly search across all your flows from all environments at once. Turbo Flow solves this: the extension fetches all flows from all available environments once and caches them locally in the browser — enabling instant, precise search without any loading delays and without sending data to external servers.
+Turbo Flow fetches all flows from all available environments once and caches them locally in the browser — enabling instant, precise search without any loading delays and without sending data to external servers.
 
 The extension is fully available in **German** and **English**.
 
@@ -27,12 +27,12 @@ The extension is fully available in **German** and **English**.
 
 ## Features
 
-### Local Flow Caching
+### 🗄️ Local Flow Caching
 - On first launch, all flows are fetched from every Power Platform environment and stored locally in the browser (IndexedDB).
 - Subsequent searches run instantly against the local cache — no repeated API calls needed.
 - The cache can be manually refreshed at any time.
 
-### Search & Filtering
+### 🔍 Search & Filtering
 - **Full-text search** across flow name, environment, and trigger type (fuzzy search via Fuse.js)
 - **Environment filter** — show only flows from a specific Power Platform environment
 - **Trigger type filter** — e.g. only flows with an HTTP request trigger
@@ -40,11 +40,11 @@ The extension is fully available in **German** and **English**.
 - Active filters are displayed as badges and can be reset individually or all at once
 - Filters are persisted in localStorage and restored on next launch
 
-### Direct Navigation
+### 🔗 Direct Navigation
 - Clicking a flow opens the Power Automate detail page directly in a new tab
 - No more manual searching through the Power Automate UI
 
-### CSV Export
+### 📤 CSV Export
 - Select any flows via checkbox and export them as CSV
 - Configurable export options:
   - Delimiter: comma, semicolon, tab, pipe
@@ -54,11 +54,7 @@ The extension is fully available in **German** and **English**.
   - Optional header row
 - Suitable for compliance documentation and audits
 
-### Column Configuration
-- Table columns can be individually shown or hidden
-- Configuration is saved locally
-
-### Multilingual Support
+### 🌐 Multilingual Support
 - The interface is fully available in **German** and **English**
 - Language can be switched directly within the extension
 
