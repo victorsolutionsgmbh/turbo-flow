@@ -200,7 +200,7 @@ export default function FlowTable({ loading, isSyncing }) {
         try {
             const flowsToExport = filteredFlows.filter(flow => selectedFlows.includes(flow.id));
             const finalFlowsToExport = flowsToExport.length > 0 ? flowsToExport : filteredFlows;
-            exportFlowsToCSV(finalFlowsToExport, visibleColumns, csvSettings);
+            exportFlowsToCSV(finalFlowsToExport, visibleColumns, csvSettings, t);
         } catch (error) {
             console.error('csv export error:', error);
             alert('Fehler beim Exportieren der Daten. Bitte versuchen Sie es erneut.');

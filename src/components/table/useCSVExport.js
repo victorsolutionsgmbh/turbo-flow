@@ -1,4 +1,4 @@
-export const exportFlowsToCSV = (flows, visibleColumns, settings) => {
+export const exportFlowsToCSV = (flows, visibleColumns, settings, t) => {
     const { delimiter, linebreak, includeHeader, encoding, quoteChar } = settings;
 
     const escapeField = (field) => {
@@ -27,12 +27,12 @@ export const exportFlowsToCSV = (flows, visibleColumns, settings) => {
     };
 
     const columnHeaders = {
-        displayName: 'Anzeigename',
-        trigger: 'Trigger',
-        state: 'Status',
-        createdTime: 'Erstellt am',
-        lastModifiedTime: 'Letzte Änderung',
-        environment: 'Umgebung',
+        displayName: t('table.col_name'),
+        trigger: t('table.col_trigger'),
+        state: t('table.col_status'),
+        createdTime: t('table.col_created'),
+        lastModifiedTime: t('table.col_modified'),
+        environment: t('table.col_environment'),
         actions: 'Flow-Link'
     };
 
