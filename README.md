@@ -72,7 +72,7 @@ The extension is fully available in **German** and **English**.
 
 ### Option A: Chrome Web Store
 
-> *(Link coming after publication)*
+> *(Link coming after publication - chrome review status: pending)*
 
 ### Option B: Manual Installation (Developer Mode)
 
