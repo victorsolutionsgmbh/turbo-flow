@@ -9,9 +9,6 @@
     "128": "logo128.png"
   },
   "permissions": [
-    "declarativeNetRequest",
-    "declarativeContent",
-    "declarativeNetRequestWithHostAccess",
     "webRequest",
     "tabs",
     "storage",
