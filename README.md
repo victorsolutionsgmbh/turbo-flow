@@ -72,7 +72,7 @@ The extension is fully available in **German** and **English**.
 
 ### Option A: Chrome Web Store
 
-> *(Link coming after publication - chrome review status: pending)*
+> [*Chrome Web Store*](https://chromewebstore.google.com/detail/%E2%9A%A1turbo-flow/nphmajkheghpikbbffmnnhgongpipegm)
 
 ### Option B: Manual Installation (Developer Mode)
 
